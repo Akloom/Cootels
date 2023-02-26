@@ -495,5 +495,93 @@
     line-height: 150%;
   }
 }
+.food {
+  margin-top: 160px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 126px;
+}
+.food-content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.food-content h1 {
+  font-family: "Montserrat";
+  max-width: 690px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #192252;
+}
+.food-content p {
+  max-width: 584px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+}
+.food-image {
+  max-width: 384px;
+}
+.food-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+  .food {
+    margin-top: 60px;
+    gap: 80px;
+  }
+  .food-content {
+    gap: 28px;
+  }
+  .food-content h1 {
+    font-size: 32px;
+    line-height: 150%;
+  }
+  .food-content p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .food {
+    margin-top: 40px;
+    gap: 60px;
+  }
+  .food-content {
+    gap: 24px;
+  }
+  .food-content h1 {
+    font-size: 28px;
+    line-height: 150%;
+  }
+  .food-content p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .food {
+    margin-top: 30px;
+    gap: 40px;
+  }
+  .food-content {
+    gap: 20px;
+  }
+  .food-content h1 {
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .food-content p {
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
