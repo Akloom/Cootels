@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="website icon" type="svg" href="./assets/img/icons/logo.svg">
   <title>Cootels</title>
@@ -80,8 +81,73 @@
         <img src="./assets/img/image/food-image.png" alt="hotel">
       </div>
     </section>
+
+    <section class="rooms container">
+      <div class="rooms-title">
+        <h1>Many Rooms to Choose</h1>
+        <p>There is a room for every needs. We have room for individuals until family size, we also have a cabin for
+          more private experience</p>
+        <a href="#">Explore more</a>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="rooms-card">
+              <img src="./assets/img/image/rooms-1.png" alt="rooms">
+              <div class="rooms-card__desc">
+                <h2>Single Room</h2>
+                <p>Best for a brave lone wolf who need comfort and quiet quality time, but you still have a chance to
+                  meet
+                  others.</p>
+              </div>
+              <a href="#">
+                <span>Learn more</span>
+                <svg class="rooms-card__icon">
+                  <use href="./assets/img/icons/svg-sprites.svg#arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="rooms-card">
+              <img src="./assets/img/image/rooms-2.png" alt="rooms">
+              <div class="rooms-card__desc">
+                <h2>Double Room</h2>
+                <p>Best for couple, seek happiness in intimacy without worry of being disturbed. Feel the whole world
+                  just
+                  for you two</p>
+              </div>
+              <a href="#">
+                <span>Learn more</span>
+                <svg class="rooms-card__icon">
+                  <use href="./assets/img/icons/svg-sprites.svg#arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="rooms-card">
+              <img src="./assets/img/image/rooms-3.png" alt="rooms">
+              <div class="rooms-card__desc">
+                <h2>Cootage</h2>
+                <p>Best for family or group. One cootage can fit up to 5 people. Made stronger bond with your family or
+                  friends</p>
+              </div>
+              <a href="#">
+                <span>Learn more</span>
+                <svg class="rooms-card__icon">
+                  <use href="./assets/img/icons/svg-sprites.svg#arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>
 

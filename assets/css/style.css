@@ -583,5 +583,176 @@
     line-height: 150%;
   }
 }
+.swiper {
+  margin-top: 88px;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0;
+}
+
+.rooms {
+  margin-top: 160px;
+  padding: 0 20px;
+}
+.rooms-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 28px;
+}
+.rooms-title h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #192252;
+}
+.rooms-title p {
+  text-align: center;
+  max-width: 588px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+}
+.rooms-title a {
+  width: max-content;
+  padding: 16px 32px;
+  border: 1px solid #0E1734;
+  border-radius: 4px;
+  background: #0E1734;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  transition: 0.6s all;
+}
+.rooms-title a:hover {
+  background: #FFFFFF;
+  color: #0E1734;
+}
+.rooms-card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.rooms-card img {
+  width: 100%;
+}
+.rooms-card__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.rooms-card__desc h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+}
+.rooms-card__desc p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #848FAC;
+}
+.rooms-card a {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424F7B;
+  fill: #424F7B;
+  transition: 0.6s all;
+}
+.rooms-card a:hover {
+  color: #0E1734;
+  fill: #0E1734;
+}
+.rooms-card__icon {
+  width: 16px;
+  height: 13px;
+}
+
+@media screen and (max-width: 920px) {
+  .rooms {
+    margin-top: 100px;
+  }
+  .rooms-title h1 {
+    font-size: 32px;
+  }
+  .rooms-title p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .swiper {
+    margin-top: 60px;
+  }
+  .rooms {
+    margin-top: 80px;
+  }
+  .rooms-title {
+    gap: 24px;
+  }
+  .rooms-title h1 {
+    font-size: 28px;
+  }
+  .rooms-title p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .swiper {
+    margin-top: 40px;
+  }
+  .rooms {
+    margin-top: 60px;
+  }
+  .rooms-title {
+    gap: 20px;
+  }
+  .rooms-title h1 {
+    font-size: 22px;
+  }
+  .rooms-title p {
+    font-size: 14px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
