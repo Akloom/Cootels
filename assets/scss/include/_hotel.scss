@@ -1,0 +1,122 @@
+.hotel {
+  margin-top: 80px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 126px;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    h1 {
+      font-family: "Montserrat";
+      max-width: 690px;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 150%;
+      color: $color-blue-700;
+    }
+
+    p {
+      max-width: 584px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      color: $color-white-400;
+    }
+
+    a {
+      width: max-content;
+      padding: 16px 32px;
+      border: 1px solid $color-blue-800;
+      border-radius: 4px;
+      background: $color-blue-800;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: $color-white-50;
+      transition: .6s all;
+
+      &:hover {
+        background: $color-white-50;
+        color: $color-blue-800;
+      }
+    }
+  }
+
+  &-image {
+    max-width: 384px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .hotel {
+    margin-top: 60px;
+    gap: 80px;
+  
+    &-content {
+      gap: 28px;
+  
+      h1 {
+        font-size: 32px;
+        line-height: 150%;
+      }
+  
+      p {
+        font-size: 16px;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .hotel {
+    margin-top: 40px;
+    gap: 60px;
+  
+    &-content {
+      gap: 24px;
+  
+      h1 {
+        font-size: 28px;
+        line-height: 150%;
+      }
+  
+      p {
+        font-size: 14px;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hotel {
+    margin-top: 30px;
+    gap: 40px;
+  
+    &-content {
+      gap: 20px;
+  
+      h1 {
+        font-size: 24px;
+        line-height: 150%;
+      }
+  
+      p {
+        font-size: 12px;
+        line-height: 150%;
+      }
+    }
+  }
+}
