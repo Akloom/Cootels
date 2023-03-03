@@ -1,0 +1,112 @@
+.footer {
+  margin-top: 80px;
+  padding: 120px 20px;
+  box-sizing: border-box;
+  background: $color-blue-750;
+
+  &-content {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      &-logo {
+        width: 124px;
+        height: 39px;
+        fill: $color-white-50;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $color-white-100;
+      }
+
+      &-social {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        &__icon {
+          fill: $color-white-50;
+          transition: .6s all;
+
+          &:hover {
+            fill: $color-white-400;
+          }
+        }
+      }
+    }
+  }
+
+  &-nav {
+    margin-left: auto;
+    display: flex;
+    gap: 100px;
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      span {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: $color-white-50;
+      }
+    }
+
+    &__links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      a {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+        color: $color-white-100;
+      }
+    }
+  }
+}
+
+.icon-size {
+  &-tw {
+    width: 32px;
+    height: 26px;
+  }
+
+  &-inst {
+    width: 32px;
+    height: 32px;
+  }
+
+  &-fb {
+    width: 16px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .footer{
+    padding: 40px 20px;
+  }
+
+  .footer-content{
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .footer-nav{
+    margin-left: 0;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
